@@ -16,8 +16,8 @@ A list with five items, but only three are visible. The last two will appear whe
 
 ```
 <div
-  class="toggleable-list"
-  data-max-visible-items="3">
+  class="togglelist"
+  data-max-visible-items="2">
 
   <div class="list">
 
@@ -37,14 +37,10 @@ A list with five items, but only three are visible. The last two will appear whe
       List item 4
     </div>
 
-    <div class="list-item">
-      List item 5
-    </div>
-
   </div>
 
-  <button class="button--toggle">
-    <span>Show hidden items (<span class="toggle__number"></span>)</span>
+  <button class="toggle">
+    <span>Show hidden items (<span class="number"></span>)</span>
   </button>
 
 </div>
@@ -56,4 +52,4 @@ A list with five items, but only three are visible. The last two will appear whe
 If a list has three items and a data-max-visible-items of 5, all items will be visible, and the toggle button will be hidden.
 
 ## Demo
-https://karisabinemalmin.github.io/toggle-items-number/
+https://karisabinemalmin.github.io/togglelist/

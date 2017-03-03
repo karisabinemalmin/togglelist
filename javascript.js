@@ -2,7 +2,7 @@ $( document ).ready(function() {
 
     const listItem = document.getElementsByClassName("togglelist");
 
-    $('.togglelist__toggle').on('click', function() {
+    $('.toggle').on('click', function() {
       $(this).prev('.list').find('.list-item--hide').toggleClass('list-item--hidden');
     });
 
@@ -10,9 +10,9 @@ $( document ).ready(function() {
       const maxVisibleItems = $(listItem[i]).data('max-visible-items');
       const totalItems = $(listItem[i]).find(".list-item").length;
       const hiddenItems = totalItems - maxVisibleItems; // number of hidden items
-      const toggle = $(listItem[i]).find('.togglelist__toggle'); // the toggle button
+      const toggle = $(listItem[i]).find('.toggle'); // the toggle button
 
-      $(listItem[i]).find('.toggle__number').text(hiddenItems); // show number of hidden items
+      $(listItem[i]).find('.number').text(hiddenItems); // show number of hidden items
 
       if (totalItems > maxVisibleItems) { // if total number of items is less than max visible items
         const toggleItems = $(listItem[i]).find('.list-item:nth-last-child(-n+' + hiddenItems + ')'); // the hidden items
