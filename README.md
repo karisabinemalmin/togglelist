@@ -4,6 +4,9 @@
 
 This is a little script using HTML5 data attributes to make multiple toggle lists and give them different numbers of maximum visible items. Set how many items you want each list to show in the HTML, and the script figures out how many should be hidden, hides them, and makes a button with the number of hidden items.
 
+## Demo
+https://karisabinemalmin.github.io/togglelist/
+
 ## Example
 If you have a list with five elements but only have space to display three by default, add the attribute `data-max-visible-item` and set it to 3.  
 
@@ -43,5 +46,10 @@ If you have a list with five elements but only have space to display three by de
 </div>
 ```
 
-## Demo
-https://karisabinemalmin.github.io/togglelist/
+## Requirements
+[jQuery](https://jquery.com/)
+
+## Licence
+MIT License
+
+Copyright (c) 2017 Kari Sabine Malmin
