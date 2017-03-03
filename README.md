@@ -57,4 +57,3 @@ If a list has three items and a data-max-visible-items of 5, all items will be v
 
 ## Demo
 https://karisabinemalmin.github.io/toggle-items-number/
-# togglelist
