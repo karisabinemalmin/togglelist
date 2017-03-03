@@ -1,4 +1,6 @@
-# Toggle items with number
+# Togglelist
+
+## Toggle items with number
 
 This is a little script using HTML5 data attributes to make multiple toggle lists and give them different numbers of maximum visible items. Set how many items you want each list to show in the HTML, and the script figures out how many should be hidden, hides them, and makes a button with the number of hidden items.
 
