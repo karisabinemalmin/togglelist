@@ -7,7 +7,7 @@ This is a little script using HTML5 data attributes to make multiple toggle list
 ```
 <div
   class="togglelist"
-  data-max-visible-items="2">
+  data-max-visible-items="3">
 
   <div class="list">
 
@@ -25,6 +25,30 @@ This is a little script using HTML5 data attributes to make multiple toggle list
 
     <div class="list-item">
       List item 4
+    </div>
+
+    <div class="list-item">
+      List item 5
+    </div>
+
+    <div class="list-item">
+      List item 6
+    </div>
+
+    <div class="list-item">
+      List item 7
+    </div>
+
+    <div class="list-item">
+      List item 8
+    </div>
+
+    <div class="list-item">
+      List item 9
+    </div>
+
+    <div class="list-item">
+      List item 10
     </div>
 
   </div>
