@@ -3,7 +3,7 @@ $( document ).ready(function() {
     const listItem = document.getElementsByClassName("togglelist");
 
     $('.toggle').on('click', function() {
-      $(this).prev('.list').find('.list-item--hide').toggleClass('list-item--hidden');
+      $(this).prev('.list').find('.list-item--hide').toggle();
     });
 
     for (var i = 0; i < listItem.length; i++) {
@@ -18,7 +18,6 @@ $( document ).ready(function() {
         const toggleItems = $(listItem[i]).find('.list-item:nth-last-child(-n+' + hiddenItems + ')'); // the hidden items
         toggle.css('display', 'block'); // show toggle button
         toggleItems.addClass('list-item--hide');
-        toggleItems.addClass('list-item--hidden');
       } else {
         toggle.css('display', 'none'); // hide toggle button if totalItems is not larger than maxVisibleItems
       }
